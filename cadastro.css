@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+html{
+    /* font-size: 62.5%; */
+    background-color: #3163ba;
+    font-family: "Afacad Flux","Helvetica Neue", Arial, sans-serif;
+    color: white;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;   
+    font-size: large;
+}
+form{
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    color: black;
+    border-left: 8px solid #223f70;
+
+}
+fieldset{
+    border: none;
+    margin: 40px 20px;
+    padding-bottom: 130px;
+}
+legend{
+    color: #3163ba;
+    font-size: 2.5rem;
+}
+.campos-area{
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.campos-area label{
+    font-size: 18px;
+    font-weight: 180;
+    text-transform: uppercase;
+}
+.campos-area input{
+    height: 30px;
+    border: 1px solid transparent;
+    border-bottom-color: #3163ba;
+    outline: none;
+    transition: padding-left .2s;
+}
+.campos-area input:focus{
+    border: 1px solid rgb(49, 99, 186);
+    background-color: rgba(49, 99, 186, .2);
+    padding-left: 5px;
+    /* transition: padding-left .2s; */
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.footer button{
+    font-weight: 550;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: #3163ba;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .5);
+}
+.footer p{
+    font-size: 18px;
+}
